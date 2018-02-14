@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CD86E74C203230AB0007F817 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E74B203230AB0007F817 /* main.cpp */; };
+		CD86E75420326A190007F817 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E75220326A190007F817 /* Shape.cpp */; };
+		CD86E75A20336E2D0007F817 /* TwoDShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E75820336E2D0007F817 /* TwoDShape.cpp */; };
+		CD86E75D203374C90007F817 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E75B203374C90007F817 /* Circle.cpp */; };
+		CD86E760203377880007F817 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E75E203377880007F817 /* Rectangle.cpp */; };
+		CD86E76620343D540007F817 /* Oval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E76420343D540007F817 /* Oval.cpp */; };
+		CD86E76920343D8A0007F817 /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E76720343D8A0007F817 /* Square.cpp */; };
+		CD86E77820344C480007F817 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD86E77620344C480007F817 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		CD86E748203230AB0007F817 /* ShapeAreaCalculation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShapeAreaCalculation; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD86E74B203230AB0007F817 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD86E75220326A190007F817 /* Shape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		CD86E75320326A190007F817 /* Shape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shape.hpp; sourceTree = "<group>"; };
+		CD86E75820336E2D0007F817 /* TwoDShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoDShape.cpp; sourceTree = "<group>"; };
+		CD86E75920336E2D0007F817 /* TwoDShape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoDShape.hpp; sourceTree = "<group>"; };
+		CD86E75B203374C90007F817 /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		CD86E75C203374C90007F817 /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		CD86E75E203377880007F817 /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		CD86E75F203377880007F817 /* Rectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
+		CD86E76420343D540007F817 /* Oval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Oval.cpp; sourceTree = "<group>"; };
+		CD86E76520343D540007F817 /* Oval.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Oval.hpp; sourceTree = "<group>"; };
+		CD86E76720343D8A0007F817 /* Square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		CD86E76820343D8A0007F817 /* Square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Square.hpp; sourceTree = "<group>"; };
+		CD86E77620344C480007F817 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		CD86E77720344C480007F817 /* Triangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				CD86E74B203230AB0007F817 /* main.cpp */,
+				CD86E75220326A190007F817 /* Shape.cpp */,
+				CD86E75320326A190007F817 /* Shape.hpp */,
+				CD86E75820336E2D0007F817 /* TwoDShape.cpp */,
+				CD86E75920336E2D0007F817 /* TwoDShape.hpp */,
+				CD86E76420343D540007F817 /* Oval.cpp */,
+				CD86E76520343D540007F817 /* Oval.hpp */,
+				CD86E75B203374C90007F817 /* Circle.cpp */,
+				CD86E75C203374C90007F817 /* Circle.hpp */,
+				CD86E75E203377880007F817 /* Rectangle.cpp */,
+				CD86E75F203377880007F817 /* Rectangle.hpp */,
+				CD86E76720343D8A0007F817 /* Square.cpp */,
+				CD86E76820343D8A0007F817 /* Square.hpp */,
+				CD86E77620344C480007F817 /* Triangle.cpp */,
+				CD86E77720344C480007F817 /* Triangle.hpp */,
 			);
 			path = ShapeAreaCalculation;
 			sourceTree = "<group>";
@@ -120,6 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD86E74C203230AB0007F817 /* main.cpp in Sources */,
+				CD86E75D203374C90007F817 /* Circle.cpp in Sources */,
+				CD86E75420326A190007F817 /* Shape.cpp in Sources */,
+				CD86E77820344C480007F817 /* Triangle.cpp in Sources */,
+				CD86E76620343D540007F817 /* Oval.cpp in Sources */,
+				CD86E76920343D8A0007F817 /* Square.cpp in Sources */,
+				CD86E760203377880007F817 /* Rectangle.cpp in Sources */,
+				CD86E75A20336E2D0007F817 /* TwoDShape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

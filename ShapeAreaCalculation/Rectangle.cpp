@@ -34,3 +34,13 @@ void Rectangle::getInput() {
 void Rectangle::calculate() {
 	area = width * height;
 }
+
+void Rectangle::setWidth(double rValue) {
+	if(rValue >= 0)
+		width = rValue;
+}
+
+void Rectangle::setHeight(double rValue) {
+	if(rValue >= 0)
+		height = rValue;
+}

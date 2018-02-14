@@ -19,7 +19,10 @@ public:
 	virtual void getInput() override;
 	virtual void calculate() override;
 	
-protected:
+	void setFirstRadious(double);
+	void setSecondRadious(double);
+	
+private:
 	double firstRadious;
 	double secondRadious;
 };

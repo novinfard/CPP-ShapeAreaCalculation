@@ -22,7 +22,8 @@ void Circle::getInput() {
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	firstRadious = ::atof(line.c_str());
-	secondRadious = firstRadious;
+	double value = ::atof(line.c_str());
+	setFirstRadious(value);
+	setSecondRadious(value);
 }
 

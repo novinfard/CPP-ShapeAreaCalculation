@@ -23,15 +23,25 @@ void Triangle::getInput() {
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	height = ::atof(line.c_str());
+	setHeight(::atof(line.c_str()));
 	
 	cout << "Enter the base :" << endl;
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	base = ::atof(line.c_str());
+	setBase(::atof(line.c_str()));
 }
 
 void Triangle::calculate() {
 	area = 0.5 * base * height;
+}
+
+void Triangle::setBase(double rValue) {
+	if(rValue >= 0)
+		base = rValue;
+}
+
+void Triangle::setHeight(double rValue) {
+	if(rValue >= 0)
+		height = rValue;
 }

@@ -19,7 +19,10 @@ public:
 	virtual void getInput() override;
 	virtual void calculate() override;
 	
-protected:
+	void setWidth(double);
+	void setHeight(double);
+	
+private:
 	double width;
 	double height;
 };

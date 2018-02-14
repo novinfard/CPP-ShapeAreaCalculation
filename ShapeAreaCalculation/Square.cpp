@@ -23,6 +23,7 @@ void Square::getInput() {
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	width = ::atof(line.c_str());
-	height = width;
+	double temp = ::atof(line.c_str());
+	setWidth(temp);
+	setHeight(temp);
 }

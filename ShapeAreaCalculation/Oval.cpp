@@ -23,15 +23,26 @@ void Oval::getInput() {
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	firstRadious = ::atof(line.c_str());
+	setFirstRadious(::atof(line.c_str()));
 	
 	cout << "Enter the second radius :" << endl;
 	std::getline(std::cin, line);
 	while (line.empty())
 		std::getline(std::cin, line);
-	secondRadious = ::atof(line.c_str());
+	setSecondRadious(::atof(line.c_str()));
 }
 
 void Oval::calculate() {
 	area = M_PI * firstRadious * secondRadious;
 }
+
+void Oval::setFirstRadious(double rValue) {
+	if(rValue >= 0)
+		firstRadious = rValue;
+}
+
+void Oval::setSecondRadious(double rValue) {
+	if(rValue >= 0)
+		secondRadious = rValue;
+}
+
